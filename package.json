@@ -1,0 +1,40 @@
+{
+  "name": "two-dice-pig",
+  "version": "1.0.0",
+  "description": "Pig is a simple dice game also known as \"jeopardy dice games\".",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randolfResurreccion/two-dice-pig.git"
+  },
+  "keywords": [],
+  "author": "Randolf Resurreccion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randolfResurreccion/two-dice-pig/issues"
+  },
+  "homepage": "https://github.com/randolfResurreccion/two-dice-pig#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.2.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.5.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "ionicons": "^5.2.3",
+    "lodash": "^4.17.20"
+  }
+}
