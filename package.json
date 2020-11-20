@@ -21,20 +21,21 @@
   },
   "homepage": "https://github.com/randolfResurreccion/two-dice-pig#readme",
   "devDependencies": {
-    "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.12.1",
-    "babel-loader": "^8.2.1",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^5.0.1",
-    "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^4.5.0",
-    "style-loader": "^2.0.0",
-    "webpack": "^5.5.1",
-    "webpack-cli": "^4.2.0",
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "ionicons": "^5.2.3",
+    "gh-pages": "^3.1.0",
+    "ionicons": "^5.1.2",
     "lodash": "^4.17.20"
   }
 }
