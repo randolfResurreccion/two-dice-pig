@@ -81,7 +81,7 @@ const component = () => {
     wrapper.appendChild(rollDice);
 
     const holdDice = document.createElement('button');
-    holdDice.classList.add('hold-dice');
+    holdDice.classList.add('btn-hold');
     holdDice.innerHTML = 'Hold Dice';
     wrapper.appendChild(holdDice);
 
