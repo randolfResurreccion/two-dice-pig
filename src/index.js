@@ -88,7 +88,7 @@ const component = () => {
     // Input 
     const inputScore = document.createElement('input');
     inputScore.placeholder = 'Default = 100';
-    inputScore.classList.add('final-score');
+    inputScore.classList.add('target-score');
     wrapper.appendChild(inputScore);
 
     // Dice Image
