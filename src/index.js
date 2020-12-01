@@ -87,7 +87,7 @@ const component = () => {
 
     // Input 
     const inputScore = document.createElement('input');
-    inputScore.placeholder = 'Default = 100';
+    inputScore.placeholder = 'Target = 100';
     inputScore.classList.add('target-score');
     wrapper.appendChild(inputScore);
 
