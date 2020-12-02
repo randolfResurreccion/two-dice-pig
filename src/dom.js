@@ -4,6 +4,7 @@ export const query = {
     current: document.querySelectorAll('.player-current-score'),
     player1Panel: document.querySelector('.player-0-panel'),
     player2Panel: document.querySelector('.player-1-panel'),
+    playerTag: document.querySelectorAll('.player-name'),
     targetScore: document.querySelector('.target-score'),
 }
 
