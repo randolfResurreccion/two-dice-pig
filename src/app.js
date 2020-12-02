@@ -77,7 +77,6 @@ const rollDice = () => {
         targetScore = parseInt(query.targetScore.value || 100);
 
         // validate for number input
-        // regExp.test(targetScore) ? targetScore = query.targetScore.value = 100 : console.log('targert score', targetScore);
         if (regExp.test(targetScore)) targetScore = query.targetScore.value = 100;
 
         // Set the target score input to readonly once the dice is rolled
