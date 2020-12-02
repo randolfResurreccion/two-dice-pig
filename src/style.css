@@ -175,5 +175,13 @@ button:focus { outline: none; }
 #dice-1 { top: 145px; }
 #dice-2 { top: 275px; }
 
+/* Winner Styling */
+.winner .player-name {
+    font-weight: bold;
+    color: var(--cherry);
+    border: 2px solid var(--cherry);
+    text-transform: uppercase;
+}
 
-.active { background-color: var(--avocado); };
+
+.active { background-color: var(--avocado); }; 
