@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/randolfResurreccion/two-dice-pig/issues"
   },
-  "homepage": "https://github.com/randolfResurreccion/two-dice-pig#readme",
+  "homepage": "https://randolfResurreccion.github.io/two-dice-pig",
   "devDependencies": {
     "@babel/core": "^7.11.4",
     "@babel/preset-env": "^7.11.0",
