@@ -33,7 +33,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
     color: var(--grey);
     font-weight: 300;
     font-family: 'light';
@@ -41,7 +41,8 @@ body {
 }
   
 .wrapper {
-    width: 1000px;
+    width: 960px;
+    max-width: 100%;
     position: absolute;
     top: 40%;
     left: 50%;
