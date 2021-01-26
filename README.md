@@ -8,3 +8,17 @@ This variation is the same as Pig, except:
 3. If two 1s are rolled, the player’s entire score is lost, and the turn ends.
 
 play the game here: https://randolfresurreccion.github.io/two-dice-pig/.
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run start
+```
+
+### Compiles and minifies for production
+```
+npm run build
